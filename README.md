@@ -7,7 +7,7 @@ An example repository, which is a part of weekly Curiosum tradition - Lightning 
 - Examples are based on `Absinthe`.
 - You can try queries and mutations with included [GraphQL Playground](#Playground)
 
----
+
 
 ## Setup
 
