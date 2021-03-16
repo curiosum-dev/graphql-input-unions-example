@@ -1,20 +1,21 @@
-# Liu
+##### [ Lightning Talk ]
 
-To start your Phoenix server:
+# GraphQL - Input Unions
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Install Node.js dependencies with `npm install` inside the `assets` directory
-  * Start Phoenix endpoint with `mix phx.server`
+An example repository, which is a part of weekly Curiosum tradition - Lightning Talks. You can check out here one of the basic GraphQL problems - `Input Unions` and it's most popular workarounds.
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+- Examples are based on `Absinthe`.
+- You can try queries and mutations with included [GraphQL Playground](#Playground)
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+---
 
-## Learn more
+## Setup
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+- Install dependencies with `mix deps.get`
+- Create, migrate and seed your database with `mix ecto.setup`
+- Install Node.js dependencies with `npm install` inside the `assets` directory
+- Start Phoenix endpoint with `mix phx.server`
+
+## Playground
+
+Now you can visit [`http://localhost:4000/api/graphiql`](http://localhost:4000/api/graphiql) from your browser.
